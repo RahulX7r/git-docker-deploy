@@ -40,9 +40,12 @@ Start a container from the built image:
 
 docker run -d -p 5000:5000 --name my-container my-app
 
-
 6. Verify the Deployment
 Access the application in the browser at:
 
 http://localhost:5000
+
+![image](https://github.com/user-attachments/assets/aef3e288-7f40-402e-822e-c238764ab8b3)  
+
+
 
