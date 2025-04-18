@@ -6,7 +6,7 @@
 2. Clone the GitHub Repository
 First, clone the repository from GitHub to your local machine:  
 
-- git clone https://github.com/your-username/your-repo.git
+- git clone (https://github.com/RahulX7r/git-docker-deploy.git)
 - cd your-repo
 
 3. Create a Dockerfile
