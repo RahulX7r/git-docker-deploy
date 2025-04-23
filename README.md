@@ -6,8 +6,8 @@
 2. Clone the GitHub Repository
 First, clone the repository from GitHub to your local machine:  
 
-- git clone https://github.com/your-username/your-repo.git
-- cd your-repo
+- git clone https://github.com/RahulX7r/git-docker-deploy.git
+- cd git-docker-deploy
 
 3. Create a Dockerfile
 Inside the cloned repository, create a `Dockerfile`:
@@ -33,17 +33,17 @@ CMD ["python", "app.py"]
 4. Build the Docker Image
 Run the following command inside the project directory:
 
-docker build -t my-app .
+docker build -t pyimage .
 
 5. Run the Container**
 Start a container from the built image:
 
-docker run -d -p 5000:5000 --name my-container my-app
+docker run -d -p 5000:5000 --name pyapp pyimage
 
 6. Verify the Deployment
 Access the application in the browser at:
 
-http://localhost:5000
+http://localhost:5000/
 
 ![image](https://github.com/user-attachments/assets/aef3e288-7f40-402e-822e-c238764ab8b3)  
 
